@@ -10,7 +10,7 @@ app.use(express.json());
 app.post('/api/webhook', webhookHandler);
 
 // Start the server
-const PORT = 3000;
+const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
